@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Malik Ahmadu | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -12,6 +13,10 @@
   </head>
   <body>
     <header class="header">
+      <button id="theme-switch">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-solid fa-sun"></i>
+      </button>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -39,12 +44,23 @@
             <h1>Malik Ahmadu</h1>
           </div>
           <p class="about-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            illum rerum itaque incidunt officia, quidem fugit expedita ea vel
-            in.
+            Currently pursuing a Bachelor of Science in Computer Science at the
+            University of Houston, with a strong focus on full-stack
+            development. Actively refining skills in JavaScript, Python, HTML,
+            CSS, and SQL, while gaining hands-on experience with front-end
+            frameworks like React and back-end technologies such as Node.js,
+            Express, and Django. Committed to building dynamic, scalable web and
+            mobile applications and continuously learning how to apply technical
+            insights to real-world challenges in software development.
           </p>
           <div class="btn-group">
-            <a class="btn" href="resume.pdf" target="_blank">Resume</a>
+            <a
+              class="btn"
+              href="Malik_Computer_Science (1).pdf"
+              target="_blank"
+            >
+              <span class="underline-text">Resume</span>
+            </a>
           </div>
         </div>
       </div>
@@ -90,18 +106,19 @@
       <h2 class="section-title">Projects</h2>
       <div class="projects-grid">
         <div class="projects-card">
-          <h3>MyMarketPlace</h3>
+          <h3>BookFace MarketPlace</h3>
           <p>
             Built a full-stack web app for buying and selling college essentials
-            using React and Python.
+            using React and MongoDB.
           </p>
           <div class="btn-group">
             <a
               class="btn"
-              href="https://github.com/yourusername/mymarketplace"
+              href="https://github.com/iiBlackbird/MarketplaceProject"
               target="_blank"
-              >Github Repository</a
             >
+              <i class="fa-brands fa-github"></i>
+            </a>
           </div>
         </div>
         <div class="projects-card">
@@ -113,14 +130,15 @@
           <div class="btn-group">
             <a
               class="btn"
-              href="https://github.com/yourusername/mychessbot"
+              href="https://github.com/malikahmadu/MyChessBot"
               target="_blank"
-              >Github Repository</a
             >
+              <i class="fa-brands fa-github"></i>
+            </a>
           </div>
         </div>
         <div class="projects-card">
-          <h3>MyWeatherWidget</h3>
+          <h3>WeatherWidget</h3>
           <p>
             Developed a weather forecast widget with OpenWeatherMap API and
             responsive UI in JavaScript.
@@ -128,13 +146,20 @@
           <div class="btn-group">
             <a
               class="btn"
-              href="https://github.com/yourusername/myweatherwidget"
+              href="https://github.com/iiBlackbird/WeatherWidget"
               target="_blank"
-              >Github Repository</a
             >
+              <i class="fa-brands fa-github"></i>
+            </a>
           </div>
         </div>
       </div>
     </section>
+    <footer class="footer-name">
+      <img src="cartoon me.png" alt="Cartoon avatar" class="footer-avatar" />
+      <p>Malik Ahmadu</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
