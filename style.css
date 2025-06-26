@@ -21,10 +21,10 @@
 }
 
 body.darkmode {
-  --bg-color: #121212;
+  --bg-color: #636363;
   --primary-text: #ffffff;
   --secondary-text: #cccccc;
-  --accent-color: #a366c1;
+  --accent-color: #301934;
   --hover-accent: #e0b3ff;
   --btn-border: #f1f1f1;
   --btn-hover-bg: #ffffff;
@@ -38,10 +38,13 @@ body.darkmode {
   padding: 0;
   border-radius: 3rem;
   background-color: var(--primary-text);
+  color: var(--accent-color);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
 
 body {
   background-color: var(--bg-color);
